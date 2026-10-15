@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "导出当前聊天的全部正文为 PDF。",
+    "developerName": "popcodewater",
+    "displayName": "Codex 聊天截图导出",
+    "longDescription": "读取本机当前 Codex 会话记录，直接导出全部正文为 PDF，保留 Markdown 标题、粗体、列表、链接、引用、代码块和表格。文字可复制，网页链接可点击；无须打开网页或选择范围。排除隐藏窗口描述，长对话自动分页，全程本地处理。保留 PNG 兼容导出方式。适用于 macOS 上有本地记录的 Codex 聊天。",
+    "shortDescription": "直接导出全部聊天为可复制文字的 PDF"
+  },
+  "name": "codex-chat-export",
+  "version": "0.1.5",
+  "description": "在本机将当前 Codex 聊天的全部正文直接导出为 PDF，保留 Markdown 格式、可复制文字和网页链接。",
+  "author": {
+    "name": "popcodewater"
+  },
+  "keywords": [],
+  "skills": "./skills",
+  "repository": "https://github.com/popcodewater/codex-chat-export"
+}

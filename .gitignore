@@ -1,0 +1,18 @@
+# Local dependencies and build artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+# Private conversation records and generated exports
+*.jsonl
+*.pdf
+*.zip
+outputs/
+chat-images/
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key

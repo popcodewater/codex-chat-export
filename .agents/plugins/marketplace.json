@@ -1,0 +1,10 @@
+{
+  "name": "codex-chat-export-marketplace",
+  "interface": {"displayName": "Codex 聊天导出"},
+  "plugins": [{
+    "name": "codex-chat-export",
+    "source": {"source": "local", "path": "./plugins/codex-chat-export"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

@@ -1,0 +1,4 @@
+Pillow>=10,<13
+reportlab>=4,<5
+pypdf>=5,<7
+pdfplumber>=0.11,<0.12

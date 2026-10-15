@@ -1,0 +1,12 @@
+{
+  "name": "codex-chat-export-runtime",
+  "private": true,
+  "version": "0.1.5",
+  "description": "Local Markdown parser for Codex chat export",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "marked": "17.0.5"
+  }
+}
